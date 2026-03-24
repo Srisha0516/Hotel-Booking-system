@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "type": "Single Room",
+    "price": 2000,
+    "maxGuests": 1
+  },
+  {
+    "id": 2,
+    "type": "Double Room",
+    "price": 3500,
+    "maxGuests": 2
+  },
+  {
+    "id": 3,
+    "type": "Deluxe Room",
+    "price": 5000,
+    "maxGuests": 3
+  },
+  {
+    "id": 4,
+    "type": "Suite",
+    "price": 8000,
+    "maxGuests": 5
+  }
+]
