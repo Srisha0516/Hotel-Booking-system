@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Bookings</title>
+</head>
+<body>
+
+<h2>My Bookings</h2>
+
+<input type="email" id="email" placeholder="Enter your email">
+<button onclick="getBookings()">Get Bookings</button>
+
+<script>
+async function getBookings() {
+  const email = document.getElementById("email").value;
+  const res = await fetch(`http://localhost:5000/api/bookings/${email}`);
+  const data = await res.json();
+  console.log(data);
+}
+</script>
+
+</body>
+</html>
